@@ -1,0 +1,20 @@
+# NEVER commit ROMs or playable game files to this repo.
+# This repo distributes a patch only. These rules are a safety net.
+*.nds
+*.ds.gba
+*.gba
+*.srl
+*.cia
+*.3ds
+*.app
+
+# Apply-output and source ROMs people might drop in by accident
+Tomodachi_Collection_EN_v1.0.nds
+*JAPANESE*
+*Japan*.nds
+*original*.nds
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
