@@ -76,6 +76,29 @@ SHA-256 AEBE0C293111CAFB0ABC0F920B139D87A89DF20D97B6F74C04531A9567183291
 
 ---
 
+## Compatibility
+
+This is a standard Nintendo DS game (not DSi-exclusive), so the English version runs on
+**every DS-family system** — the same hardware the original Japanese cartridge runs on:
+
+- Nintendo DS / DS Lite
+- Nintendo DSi / DSi XL
+- Nintendo 2DS / 3DS / 3DS XL / New 3DS / New 2DS
+
+What changes per system is **how you load it**, not the patch:
+
+| Your console | How to run it |
+|---|---|
+| **DSi / DSi XL / 2DS / 3DS / New 3DS** | SD card via **TWiLightMenu++ + nds-bootstrap v2.16.0+** (handles the anti-piracy automatically — see [docs/PLAY_ON_HARDWARE.md](docs/PLAY_ON_HARDWARE.md)) |
+| **DS / DS Lite** | A slot-1 flashcart (R4 and similar) with a current kernel |
+| **Real CCUJ cartridge** | Reflash/play per your cart's tools — works on any model |
+
+> The only model-independent gotcha is the game's **DS Protect anti-piracy**: it's satisfied
+> by your *loader*, not your console. An out-of-date loader causes the "crash after naming
+> your island" on any system — keep your flashcart/TWiLightMenu current.
+
+---
+
 ## Playing it on real hardware
 
 Works on a flashcart or on a DSi/3DS via **TWiLightMenu++ with nds-bootstrap v2.16.0 or
